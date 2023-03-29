@@ -88,6 +88,9 @@ li {
     min-height: 500px;
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .location-container {
@@ -136,7 +139,7 @@ li {
     }
     li {
         display: block;
-        margin: 10px 20px;
+        margin: 10px 15px 10px 0;
     }
     header {
         background-color: black;
@@ -148,5 +151,4 @@ li {
         top: 0;
         width: 100%;
     }
-    
 }
